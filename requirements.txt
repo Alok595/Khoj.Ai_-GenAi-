@@ -1,0 +1,39 @@
+# LangChain + Agents
+langchain
+langgraph
+langchain-community
+
+# Mistral AI
+mistralai
+
+# Tavily Search Tool
+tavily-python
+langchain-tavily
+
+# Web Scraping
+beautifulsoup4
+requests
+lxml
+
+# Environment Variables
+python-dotenv
+
+# Async Requests
+httpx
+aiohttp
+
+# Data Handling
+pandas
+numpy
+
+# Vector Database (optional)
+chromadb
+faiss-cpu
+
+# API Server (optional)
+fastapi
+uvicorn
+
+# Logging
+rich
+loguru
