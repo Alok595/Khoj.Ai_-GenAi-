@@ -476,7 +476,9 @@ export default function App() {
     simulateProgress();
 
     try {
-      const res = await axios.post("http://localhost:8000/research", { topic });
+      // const res = await axios.post("http://localhost:8000/research", { topic });
+      const res = await axios.post("https://khoj-ai-genai.onrender.com", { topic });
+
       setResult(res.data);
       setActiveStep(-1);
       setCompletedKeys(STEPS.map((s) => s.key));
