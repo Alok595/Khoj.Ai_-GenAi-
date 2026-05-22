@@ -2,6 +2,9 @@
 langchain
 langgraph
 langchain-community
+langchain-core
+langchain-mistralai       # ← ADD THIS
+langchain-text-splitters  # ← ADD THIS
 
 # Mistral AI
 mistralai
@@ -30,7 +33,7 @@ numpy
 chromadb
 faiss-cpu
 
-# API Server (optional)
+# API Server
 fastapi
 uvicorn
 
