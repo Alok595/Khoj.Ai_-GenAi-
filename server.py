@@ -7,7 +7,12 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "http://localhost:3000","https://khoj-ai-gen-ai-2cur-6ju4ptdxa-alok595s-projects.vercel.app"],
+    allow_origins=[
+        "http://localhost:5173",
+        "http://localhost:3000",
+        "https://khoj-ai-gen-ai-2cur-6ju4ptdxa-alok595s-projects.vercel.app",
+        "https://khoj-ai-gen-ai-2cur.vercel.app",  # ← ADD THIS (your production URL)
+    ],
     allow_methods=["*"],
     allow_headers=["*"],
 )
